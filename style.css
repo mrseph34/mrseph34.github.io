@@ -1,0 +1,14 @@
+body{
+	background-image: url("back1.gif");
+}
+.navbar {
+  overflow: hidden;
+  background-image: url("nav.png");
+  background-size: 350px;
+  background-position: 240px -40px;
+  position: fixed; 
+  left: 1300px;
+  top: 0;
+  width: 10%; 
+  font-size: 30px;
+}
