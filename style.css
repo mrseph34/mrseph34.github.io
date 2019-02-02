@@ -1,14 +1,51 @@
 body{
-	background-image: url("back1.gif");
+	background-image: url("Use.gif");
+	background-size: 1500px
 }
-.navbar {
-  overflow: hidden;
-  background-image: url("nav.png");
-  background-size: 350px;
-  background-position: 240px -40px;
-  position: fixed; 
-  left: 1300px;
-  top: 0;
-  width: 10%; 
-  font-size: 30px;
+ul.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+ 	overflow: hidden;
+ 	opacity: 1;
+ 	background-color: #00004d;
+ 	background-size: 350px;
+ 	background-position: 240px -40px;
+ 	position: sticky; 
+ 	left: 0px;
+ 	top: 0;
+ 	width: 10%; 
+ 	font-size: 30px;
+}
+ul.navbar li {float: left;}
+
+ul.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: inline-block
+}
+
+.b:hover{
+	background-color: #000000
+}
+.c:hover{
+	background-color: #000000
+}
+.d:hover{
+	background-color: #000000
+}
+.a{
+	font-size: 150px;
+	color: red;
+}
+.e{
+	font-size: 80px;
+	color: white;
+}
+.melon{
+	font-size: 50px;
+	color: white;
 }
