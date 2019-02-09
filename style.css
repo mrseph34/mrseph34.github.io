@@ -15,9 +15,9 @@ ul.navbar{
  	left: 0px;
  	top: 0;
  	width: 10%; 
- 	font-size: 30px;
+ 	font-size: 25px;
 }
-ul.navbar li {float: left;}
+ul.navbar li {float: center;}
 
 ul.navbar li a {
 	display: block;
@@ -25,7 +25,19 @@ ul.navbar li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	display: block
+}
+
+li.dropbutton{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 42px;
+	text-decoration: none;
 	display: inline-block
+}
+li.dropbutton:hover{
+	background-color: #000000
 }
 
 .b:hover{
