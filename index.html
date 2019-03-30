@@ -3,11 +3,11 @@
 <head>
 
 	<ul class="navbar">
-        <li id="drop-button" class="dropbutton">Menu</li>
+            <li id="drop-button" class="dropbutton" onclick="openMenu()">Menu</li>
         <div class="drop-down" id="dropdown">
-    	<li><div class="b"><a href="#about">-About Me</a></div></li>
-    	<li><div class="c"><a href="#projects">-Projects</a></div></li>
-    	<li><div class="d"><a href="#contacts">-Contacts</a></div></li>
+    	   <li><div class="b"><a href="#about">-About Me</a></div></li>
+    	   <li><div class="c"><a href="#viewProjects">-Projects</a></div></li>
+    	   <li><div class="d"><a href="#contacts">-Contacts</a></div></li>
         </div>
     </ul>
 	<link rel="stylesheet" href="style.css">
@@ -18,27 +18,40 @@
 
 <div id="about">
 		<div class="a">
-			<p1>Welcome</p1>
+			<p1>About Me</p1>
         </div>
+            <img src="walkit.gif" width="400px" height="400px">
+            <p>Student of Bronx Academy for Software Engineering Class of 2022 who is proficient in Python, C++, JavaScript, HTML, CSS, Unity 3d, Web Development, Microsoft Word, Microsoft PowerPoint, Google Docs and Google Slides.</p>
 </div>
-
-    	<div class="about">
-<div id="projects">
-    	<div class="e">
-    		<p1>My <a href="https://glitch.com/@mrseph34">GITHUB</a> Link</p1>
-    	</div>
-        </div>
-    	<div class="melon">
-			<p1>I did a project to use only JavaScript to make a watermelon with p5-JavaScripts already pre-coded functions.</p1>
+<div class="about">
+    <div class="e">
+        <p1>Check out my <a href="https://glitch.com/@mrseph34">Glitch</a> link</p1>
+    </div>
+            <button id="viewProjects" onclick="openProjects()">-            Projects              -</button>
+        <div id="projects">
+    	   <div class="melon">
+                <p1>I did a project to use only JavaScript to make a watermelon with a coding language called p5-js and much more check it out!</p1>
 			<center>
-				<p1 style="background-color: red;"><a href="https://google-watermelon-project.glitch.me/">-->VIEW WATERMELON PROJECT<--</a></p1>
-				<a href="https://google-watermelon-project.glitch.me/"><img src="melon.png" width="800px" height="800px"></a>
+				<p style="background-color: red;"><a href="https://google-watermelon-project.glitch.me/">-->VIEW WATERMELON PROJECT<--</a></p>
+				<a href="https://google-watermelon-project.glitch.me/"><img src="melon.png" width="600px" height="600px"></a>
+                <p style="background-color: red;"><a href="https://google-animation-project.glitch.me/">-->VIEW CLICK ANIMATED EMOJI PROJECT<--</a></p>
+				<a href="https://google-animation-project.glitch.me/"><img src="pikachu.png" width="600px" height="600px"></a>  
+                <p style="background-color: red;"><a href="https://animation-google.glitch.me/">-->VIEW BASIC ANIMATED CIRCLE PROJECT<--</a></p>
+				<a href="https://animation-google.glitch.me/"><img src="circle.png" width="600px" height="600px"></a> 
+                <p style="background-color: red;"><a href="https://google-ar-project.glitch.me/">-->VIEW AUGMENTED REALITY PROJECT<--</a></p>
+				<a href="https://google-ar-project.glitch.me/"><img src="ar.jpg" width="600px" height="400px"></a>  
 		    </center>
-		</div>
+		  </div>
+        </div>
+    <div id="contacts">
+        <p>email: mrseph34@gmail.com</p>
+        <p>github: <a href="https://github.com/mrseph34">github.com/mrseph34</a></p>
+        <p>website: <a href="https://mrseph34.github.io">mrseph34.github.io</a></p>
+    </div>
 </div>
 
 </center>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

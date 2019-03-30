@@ -1,6 +1,6 @@
 body{
-	background-image: url("Use.gif");
-	background-size: 1500px
+	background-color: black;
+	background-size: 1500px;
 }
 ul.navbar{
 	list-style-type: none;
@@ -25,7 +25,7 @@ ul.navbar li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	display: block
+	display: block;
 }
 
 li.dropbutton{
@@ -34,7 +34,7 @@ li.dropbutton{
 	text-align: center;
 	padding: 14px 42px;
 	text-decoration: none;
-	display: inline-block
+	display: inline-block;
 }
 li.dropbutton:hover{
 	background-color: #000000
@@ -50,14 +50,46 @@ li.dropbutton:hover{
 	background-color: #000000
 }
 .a{
-	font-size: 150px;
+	font-size: 100px;
 	color: red;
+    background-image: url(Use.gif);
+    background-size: 1000px;
+    background-position: center;
 }
 .e{
-	font-size: 80px;
+	font-size: 40px;
 	color: white;
 }
 .melon{
 	font-size: 50px;
 	color: white;
+}
+#viewProjects{
+  background-color: skyblue;
+  padding: .5em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 50px;
+  text-decoration: none;
+  border: none;
+  background-image: url(nav.png);
+  background-position: center;
+}
+#viewProjects:hover{
+  border: none;
+  background: red;
+  box-shadow: 0px 0px 1px #777;
+  color: black;    
+}
+#projects{
+    display: none;
+}
+#contacts{
+    color: white;
+}
+#dropdown{
+    display: none;
 }
